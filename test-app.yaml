@@ -18,7 +18,7 @@ spec:
         app: test-app
     spec:
       containers:
-      - image: mavenapp:1.0-19
+      - image: image-registry.openshift-image-registry.svc:5000/test002/mavenapp:1.0-19
         name: mavenapp
         resources: {}
 status: {}
